@@ -1,0 +1,6 @@
+pandas>=2.2,<3
+numpy>=1.26,<2
+tables>=3.9
+tfrecord>=1.14.7,<2
+torch>=2.2,<2.3
+pyvista>=0.49

@@ -208,6 +208,12 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Large CFD inputs and generated training outputs
+/data/
+/runs/
+/.venv-training/
+/vorticity_audit.png
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -221,3 +227,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore outputs
+*.png
+outputs/
+
+# Keep curated documentation visuals tracked
+!docs/images/*.png
